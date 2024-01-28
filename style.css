@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+/* Hover Activity*/
+
+.mainhover:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+/* Navigation */
+
+.nav-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.nav-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.yt-logo {
+    background-image: url("IMGS/YouTube-Logo.png");
+    margin-left: 10px;
+    margin-right: 50px;
+    background-size: cover;
+    width: 115px;
+    height: 60px;
+}
+
+.nav-search {
+    border: 2px solid #d3d3d3;
+    width: 600px;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.nav-search input {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+
+.nav-search i {
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+    width: 25px;
+    /* border: 2px solid grey; */
+    height: 100%;
+}
+
+.signin {
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px 0 10px;
+    border: 2px solid rgb(98, 98, 255);
+    border-radius: 20px;
+    height: 40px;
+    color: rgb(80, 80, 255);
+    background: rgba(226, 226, 255, 0.295);
+}
+.signin i{
+    margin: 0 5px 0 0;
+}
+
+.signin:hover{
+    background: rgba(199, 199, 255, 0.521);
+}
+
+/*Panel Bar*/
+
+.panel .panelbar ul{
+    display: flex;
+    align-items: center;
+    
+}
+.panel .panelbar ul li{
+    border-radius: 10px;
+    background: #f8f8f87a;
+ list-style: none;
+ margin: 10px;
+padding: 7px;
+}
+.panel .panelbar ul li:hover{
+    background: #ebebeb;
+}
+
+/* Home section */
+
+.homesec{
+    height: 100%;
+    background: rgba(248, 248, 248, 0.801);
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 30%;
+    width: 22%;
+}
+
+.thumbnail{
+    background-image: url("https://cdn.123telugu.com/content/wp-content/uploads/2023/06/animal.jpg")center center cover;
+}
